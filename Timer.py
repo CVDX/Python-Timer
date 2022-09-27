@@ -9,7 +9,7 @@ print("Seconds?")
 y = input()
 secondsLeft = int(y)
 
-q = print("Error, do not input negatives. 60 SEC = 1 MiNUTE RESTARTING...")
+q = ("Error, do not input negatives. 60 SEC = 1 MiNUTE RESTARTING...")
 if (int(minutesLeft)) <= -1:
         print(q)
         time.sleep(2)
